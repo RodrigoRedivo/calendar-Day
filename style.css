@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+.calendar{
+    position: relative;
+    width: 200px;
+    background: #7903ff;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#6789);
+}
+
+.calendar #monthName {
+    position: relative;
+    padding: 5px 10px;
+    background: rgb(17, 255, 251);
+    color: #7903ff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.calendar #dayName {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(17, 255, 251);
+}
+
+.calendar #dayNumber {
+    margin-top: 0px;
+    line-height: 1em;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(17, 255, 251);
+}
+
+.calendar #year {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(17, 255, 251);
+}
